@@ -19,7 +19,7 @@
   --body-font: "Poppins", sans-serif;
   --second-font: "Montserrat", sans-serif;
 
-  --big-font-size: clamp(2rem, 0.9706rem + 4.7059vw, 4.5rem);
+  --big-font-size: clamp(3rem, 0.9706rem + 4.7059vw, 4.5rem);
   --h1-font-size: clamp(1.75rem, 0.9265rem + 3.7647vw, 3.75rem);
   --h2-font-size: 1.75rem;
   --h3-font-size: 1.5rem;
@@ -301,7 +301,6 @@ video.fullscreen {
   inset: 0;
   margin: auto;
   top: 58%;
-
   text-align: center;
 }
 
@@ -311,9 +310,9 @@ video.fullscreen {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 700;
-  font-size: var(--h1-font-size);
+  font-size: var(--big-font-size);
   margin: 20px;
-  font-family: var(: sans-serif);
+  font-family: var(--body-font)
 }
 
 .headerOne a {
@@ -1052,6 +1051,8 @@ button a {
   font-weight: var(--weight-400);
   justify-self: flex-end;
 }
+.footer__copyright a{color:white;}
+.footer__copyright a:hover{color: var(--first-color);}
 
 /*=============== SCROLL UP ===============*/
 .scrollup {
